@@ -91,3 +91,22 @@
         line-height: 2rem;
     }
 }
+
+@media (max-width: 602px) {
+    span > b {
+        width: 100vw;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 442px) {
+    span > b {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 343px) {
+    span > b {
+        font-size: 0.7rem;
+    }
+}
