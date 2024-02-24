@@ -53,3 +53,52 @@
 #data {
     font-size: 1.2rem;
 }
+
+@media(max-width: 1280px) {
+    .formArea {
+        width: 45vw;
+    }
+
+    .inputText {
+        width: 35vw;
+    }
+}
+
+@media(max-width: 1050px) {
+    .formArea {
+        width: 80vw;
+    }
+
+    .inputText {
+        width: 70vw;
+    }
+
+        .inputText::placeholder {
+            font-size: 1rem;
+        }
+}
+
+@media(max-width: 840px) {
+    .inputText {
+        font-size: 0.9rem;
+    }
+
+        .inputText::placeholder {
+            font-size: 0.9rem;
+        }
+}
+
+@media(max-width: 740px) {
+
+    .inputText {
+        font-size: 0.8rem;
+    }
+
+        .inputText::placeholder {
+            font-size: 0.8rem;
+        }
+
+    .nameText {
+        font-size: 0.8rem;
+    }
+}
