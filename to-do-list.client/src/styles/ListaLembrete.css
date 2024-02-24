@@ -1,0 +1,93 @@
+.mainTask {
+    font-size: 24px;
+    line-height: 2rem;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1rem;
+}
+
+.taskBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.taskDate {
+    margin-left: 2.5rem;
+}
+
+.taskName {
+    display: flex;
+    margin-left: 5rem;
+    height: 20px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonRemoveTask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(220, 38, 38);
+    color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.X {
+    font-size: 0.9rem;
+    transform: scale(1.15, 1);
+    margin: 0 1px 2px 0;
+    font-weight: bold;
+}
+
+.buttonRemoveTask:active {
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .md\:text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .sm\:p-0 {
+        padding: 0px;
+    }
+
+    .sm\:text-base {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:text-lg {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:text-2xl {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}

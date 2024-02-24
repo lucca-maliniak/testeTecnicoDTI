@@ -1,0 +1,2 @@
+C:\Users\lucca.balona\source\repos\To-do-List\to-do-list.client\obj\Debug\to-do-list.client.esproj.CoreCompileInputs.cache
+C:\Users\lucca\Desktop\To-do-List\to-do-list.client\obj\Debug\to-do-list.client.esproj.CoreCompileInputs.cache
