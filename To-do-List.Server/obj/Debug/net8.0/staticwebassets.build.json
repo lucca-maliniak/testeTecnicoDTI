@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "RGuZpoHjR1hO0PCsAaglqkFklPQekeAp2eExA9rVXkM=",
+  "Source": "To-do-List.Server",
+  "BasePath": "_content/To-do-List.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\lucca\\Desktop\\to-do-list\\to-do-list.client\\to-do-list.client.esproj",
+      "Version": 2,
+      "Source": "to-do-list.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
