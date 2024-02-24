@@ -18,8 +18,8 @@ Um projeto de Lista de Tarefas desenvolvido utilizando C# .NET e ReactJS.
 
 1. Clone o repositório:
 git clone https://github.com/lucca-maliniak/testeTecnicoDTI
-2. Entre na pasta: cd (pasta-do-projeto) client e server 
-3. Instale as dependências do projeto: npm install ou yarn install
+2. Entre nas pastas: cd (pasta-do-projeto) client, server e da pasta raiz
+3. Instale todas as dependências do projeto: npm install ou yarn install 
 
 ## Uso
 
