@@ -21,3 +21,21 @@
 .button:hover {
     background-color: rgb(2,132,199);
 }
+
+@media(max-width: 1280px) {
+    .buttonArea {
+        width: 43.5vw;
+    }
+}
+
+@media(max-width: 1050px) {
+    .buttonArea {
+        width: 77.5vw;
+    }
+}
+
+@media(max-width: 602px) {
+    .buttonArea {
+        width: 76vw;
+    }
+}
