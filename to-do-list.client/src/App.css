@@ -29,3 +29,15 @@
     width: 35vw;
     align-items: flex-start;
 }
+
+@media(max-width: 670px) {
+    .textLembrete {
+        width: 100vw;
+    }
+}
+
+@media(max-width: 602px) {
+    .textLembrete {
+        font-size: 1.5rem;
+    }
+}
